@@ -1,7 +1,42 @@
 import inquirer from "inquirer"
 import fs from "fs"
 
-const generateReadMe = ({}) => {}
+const generateReadMe = ({description, installation, usage, contribution, test, license}) => {
+    `# ReadMe Generator
+
+        ##Table of Contents
+        - [Description](#description)
+        - [License](#license)
+        - [Installation](#installation)
+        - [Usage](#Usage)
+        - [Contributing](#contributing)
+        - [tests](#tests)
+
+        ## Description 
+
+        * ${description}
+
+        ## License
+
+        * ${license}
+
+        ## Installation 
+
+        * ${installation}
+
+        ## Usage 
+
+        * ${usage}
+
+        ## Contributing
+
+        * ${contribution}
+
+        ## Tests
+
+        * ${test}
+    `
+}
 
 inquirer
     .prompt([
