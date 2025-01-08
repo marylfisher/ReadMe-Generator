@@ -4,48 +4,48 @@ import fs from "fs"
 const generateReadMe = ({title, description, installation, usage, contribution, test, license, username, repository}) => 
     `# ${title}
 
-##Table of Contents
-        - [Description](#description)
-        - [License](#license)
-        - [Installation](#installation)
-        - [Usage](#Usage)
-        - [Contributing](#contributing)
-        - [Tests](#tests)
-        - [Walkthrough Video and Screenshots](#walkthrough-video-and-screenshots)
-        - [Questions](#questions)
+## Table of Contents
+- [Description](#description)
+- [License](#license)
+- [Installation](#installation)
+- [Usage](#Usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Walkthrough Video and Screenshots](#walkthrough-video-and-screenshots)
+- [Questions](#questions)
 
 ## Description 
 
-        * ${description}
+${description}
 
 ## License
 
-        * ${license}
+${license}
 
 ## Installation 
 
-        * ${installation}
+${installation}
 
 ## Usage 
 
-        * ${usage}
+${usage}
 
 ## Contributing
 
-        * ${contribution}
+${contribution}
 
 ## Tests
 
-        * ${test}
+${test}
 
 ##Walkthrough Video and Screenshots
 
 ## Questions
 
-        * Please guide any questions to:
+Please guide any questions to:
 
-        - ${username}
-        - [${repository}](${repository})
+- Github user: ${username}
+- [${repository}](${repository})
 
     `;
 
