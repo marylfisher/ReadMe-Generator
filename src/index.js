@@ -38,4 +38,10 @@ inquirer
         }
 
     ])
-    .then ()
+    .then ((answers) => {
+        const readmePageContent = generateReadMe(answers);
+
+        fs.writeFile('ReadMe.md', readmePageContent, (err) => 
+            err ? console.log(err) : console.log("Successfully created ReadMe!")
+        );
+    });
