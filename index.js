@@ -58,7 +58,7 @@ inquirer
         },
         {
             type: 'input',
-            message: 'Enter a dscription of your project.',
+            message: 'Enter a description of your project.',
             name: 'description',
         },
         {
