@@ -10,8 +10,9 @@ const generateReadMe = ({title, description, installation, usage, contribution, 
         - [Installation](#installation)
         - [Usage](#Usage)
         - [Contributing](#contributing)
-        - [tests](#tests)
-        - [questions](#questions)
+        - [Tests](#tests)
+        - [Walkthrough Video and Screenshots](#walkthrough-video-and-screenshots)
+        - [Questions](#questions)
 
         ## Description 
 
@@ -44,7 +45,7 @@ const generateReadMe = ({title, description, installation, usage, contribution, 
         * Please guide any questions to:
 
         - ${username}
-        - [${repository}](#${repository})
+        - [${repository}](${repository})
 
     `;
 
