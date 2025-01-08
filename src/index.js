@@ -1,7 +1,7 @@
 import inquirer from "inquirer"
 import fs from "fs"
 
-const generateReadMe = ({description, installation, usage, contribution, test, license}) => {
+const generateReadMe = ({description, installation, usage, contribution, test, license, username, repository, deployment}) => {
     `# ReadMe Generator
 
         ##Table of Contents
@@ -11,6 +11,7 @@ const generateReadMe = ({description, installation, usage, contribution, test, l
         - [Usage](#Usage)
         - [Contributing](#contributing)
         - [tests](#tests)
+        - [questions](#questions)
 
         ## Description 
 
@@ -35,6 +36,15 @@ const generateReadMe = ({description, installation, usage, contribution, test, l
         ## Tests
 
         * ${test}
+
+        # Questions
+
+        * Please guide any questions to:
+
+        - ${username}
+        - [${repository}](#${repository})
+        - [${deployment}](#${deployment})
+
     `
 }
 
@@ -70,7 +80,22 @@ inquirer
             message: 'Which license is your project using?',
             name:'license',
             choices: ['MIT License', 'Apache License 2.0', 'GNU General Public License (GPL)', 'BSD Licenses', 'Creative Commons Attribution-NonCommercial-NoDerivs (CC-BY-NC-ND)', 'Unlicense']
-        }
+        },
+        {
+            type: 'input',
+            message: 'Enter your github username',
+            name: 'username',
+        },
+        {
+            type: 'input',
+            message: 'Enter your github repository link.',
+            name: 'repository',
+        },
+        {
+            type: 'input',
+            message: 'Enter your deployment link.',
+            name: 'deployment',
+        },
 
     ])
     .then ((answers) => {
