@@ -1,8 +1,8 @@
 import inquirer from "inquirer"
 import fs from "fs"
 
-const generateReadMe = ({description, installation, usage, contribution, test, license, username, repository, deployment}) => {
-    `# ReadMe Generator
+const generateReadMe = ({title, description, installation, usage, contribution, test, license, username, repository}) => 
+    `# ${title}
 
         ##Table of Contents
         - [Description](#description)
@@ -37,19 +37,25 @@ const generateReadMe = ({description, installation, usage, contribution, test, l
 
         * ${test}
 
+        #Walkthrough Video and Screenshots
+
         # Questions
 
         * Please guide any questions to:
 
         - ${username}
         - [${repository}](#${repository})
-        - [${deployment}](#${deployment})
 
-    `
-}
+    `;
+
 
 inquirer
     .prompt([
+        {
+            type: 'input',
+            message: 'What is the title of your ReadMe.',
+            name: 'title',
+        },
         {
             type: 'input',
             message: 'Enter a dscription of your project.',
@@ -91,12 +97,6 @@ inquirer
             message: 'Enter your github repository link.',
             name: 'repository',
         },
-        {
-            type: 'input',
-            message: 'Enter your deployment link.',
-            name: 'deployment',
-        },
-
     ])
     .then ((answers) => {
         const readmePageContent = generateReadMe(answers);
