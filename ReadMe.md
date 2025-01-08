@@ -1,14 +1,14 @@
 # ReadMe Generator
 
         ##Table of Contents
-        - [Description](#description)
-        - [License](#license)
-        - [Installation](#installation)
-        - [Usage](#Usage)
-        - [Contributing](#contributing)
-        - [Tests](#tests)
-        - [Walkthrough Video and Screenshots](#walkthrough-video-and-screenshots)
-        - [Questions](#questions)
+        - [Description](##description)
+        - [License](##license)
+        - [Installation](##installation)
+        - [Usage](##Usage)
+        - [Contributing](##contributing)
+        - [Tests](##tests)
+        - [Walkthrough Video and Screenshots](##walkthrough-video-and-screenshots)
+        - [Questions](##questions)
 
         ## Description 
 
@@ -16,7 +16,7 @@
 
         ## License
 
-        * Unlicense
+        * Apache License 2.0
 
         ## Installation 
 

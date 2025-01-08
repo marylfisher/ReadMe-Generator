@@ -5,14 +5,14 @@ const generateReadMe = ({title, description, installation, usage, contribution, 
     `# ${title}
 
         ##Table of Contents
-        - [Description](#description)
-        - [License](#license)
-        - [Installation](#installation)
-        - [Usage](#Usage)
-        - [Contributing](#contributing)
-        - [Tests](#tests)
-        - [Walkthrough Video and Screenshots](#walkthrough-video-and-screenshots)
-        - [Questions](#questions)
+        - [Description](##description)
+        - [License](##license)
+        - [Installation](##installation)
+        - [Usage](##Usage)
+        - [Contributing](##contributing)
+        - [Tests](##tests)
+        - [Walkthrough Video and Screenshots](##walkthrough-video-and-screenshots)
+        - [Questions](##questions)
 
         ## Description 
 
