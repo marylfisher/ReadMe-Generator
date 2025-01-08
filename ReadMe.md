@@ -6,12 +6,13 @@
         - [Installation](#installation)
         - [Usage](#Usage)
         - [Contributing](#contributing)
-        - [tests](#tests)
-        - [questions](#questions)
+        - [Tests](#tests)
+        - [Walkthrough Video and Screenshots](#walkthrough-video-and-screenshots)
+        - [Questions](#questions)
 
         ## Description 
 
-        * This project prompts the user in node to fill out information and generate a ReadMe document to upload
+        * This project prompts the user in node to fill out information and generate a ReadMe document to upload to github.
 
         ## License
 
@@ -31,7 +32,7 @@
 
         ## Tests
 
-        * Test application by following the installation instructions.
+        * Test application by following the installation instructions. 
 
         #Walkthrough Video and Screenshots
 
@@ -40,6 +41,6 @@
         * Please guide any questions to:
 
         - marylfisher
-        - [https://github.com/marylfisher/ReadMe-Generator](#https://github.com/marylfisher/ReadMe-Generator)
+        - [https://github.com/marylfisher/ReadMe-Generator](https://github.com/marylfisher/ReadMe-Generator)
 
     
