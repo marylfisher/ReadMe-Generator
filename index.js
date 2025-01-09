@@ -86,7 +86,11 @@ inquirer
             type: 'list',
             message: 'Which license is your project using?',
             name:'license',
-            choices: ['MIT License', 'Apache License 2.0', 'Unlicense']
+            choices: [
+                {name: 'MIT License', value: "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"},
+                {name: 'Apache License 2.0', value: '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'},
+                {name: 'Unlicense', value: 'Unlicensed'}
+                ]
         },
         {
             type: 'input',
@@ -101,14 +105,6 @@ inquirer
     ])
     .then ((answers) => {
         const readmePageContent = generateReadMe(answers);
-
-        if (answers.license === 'MIT License') {
-            answers.license = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
-        } else if (answers.license === 'MIT License') {
-            answers.license = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
-        } else {
-            answers.license = "Unlicensed"
-        }
 
         fs.writeFile('ReadMe.md', readmePageContent, (err) => 
             err ? console.log(err) : console.log("Successfully created ReadMe!")
