@@ -1,7 +1,7 @@
 import inquirer from "inquirer"
 import fs from "fs"
 
-const generateReadMe = ({title, description, installation, usage, contribution, test, license, username, repository}) => 
+const generateReadMe = ({title, description, installation, usage, contribution, test, license, username, repository, email}) => 
     `# ${title}
 
 ## Table of Contents
@@ -50,6 +50,7 @@ ${test}
 Please guide any questions to:
 
 - GitHub Username: ${username}
+- Email: ${email}
 - [${repository}](${repository})
 
     `;
@@ -101,6 +102,11 @@ inquirer
             type: 'input',
             message: 'Enter your github username',
             name: 'username',
+        },
+        {
+            type: 'input',
+            message: 'Enter your email address.',
+            name: 'email',
         },
         {
             type: 'input',
