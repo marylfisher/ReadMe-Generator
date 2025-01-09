@@ -8,10 +8,10 @@ const generateReadMe = ({title, description, installation, usage, contribution, 
 - [Description](#description)
 - [License](#license)
 - [Installation](#installation)
+- [Walkthrough Video and Screenshots](#walkthrough-video-and-screenshots)
 - [Usage](#Usage)
 - [Contributing](#contributing)
 - [Tests](#tests)
-- [Walkthrough Video and Screenshots](#walkthrough-video-and-screenshots)
 - [Questions](#questions)
 
 ## Description 
@@ -26,6 +26,13 @@ ${license}
 
 ${installation}
 
+## Walkthrough Screenshots for Installation
+
+[Install 'package.json' command](./assets/package-json-install.png)<br/>
+[Install 'inquirer' command](./assets/inquirer-install.png)<br/>
+['package.json' contents](./assets/packagejson-contents.png)<br/>
+['.gitignore' contents](./assets/gitignore-contents.png)<br/>
+
 ## Usage 
 
 ${usage}
@@ -37,13 +44,6 @@ ${contribution}
 ## Tests
 
 ${test}
-
-## Walkthrough Video and Screenshots
-
-[Install 'package.json' command](./assets/package-json-install.png)<br/>
-[Install 'inquirer' command](./assets/inquirer-install.png)<br/>
-['package.json' contents](./assets/packagejson-contents.png)<br/>
-['.gitignore' contents](./assets/gitignore-contents.png)<br/>
 
 ## Questions
 
