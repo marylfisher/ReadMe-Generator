@@ -16,7 +16,7 @@ This project prompts the user in node to fill out information and generate a Rea
 
 ## License
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+Unlicensed
 
 ## Installation 
 
@@ -35,6 +35,11 @@ In order to contribute, please content the github user under questions for acces
 Test application by following the installation instructions. 
 
 ## Walkthrough Video and Screenshots
+
+[Install 'package.json' command](./assets/package-json-install.png)
+[Install 'inquirer' command](./assets/inquirer-install.png)
+['package.json' contents](./assets/packagejson-contents.png)
+['.gitignore' contents](./assets/gitignore-contents.png)
 
 ## Questions
 
