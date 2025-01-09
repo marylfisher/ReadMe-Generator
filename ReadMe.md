@@ -16,7 +16,7 @@ This project prompts the user in node to fill out information and generate a Rea
 
 ## License
 
-Unlicense
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Installation 
 
