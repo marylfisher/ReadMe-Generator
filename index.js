@@ -40,10 +40,10 @@ ${test}
 
 ## Walkthrough Video and Screenshots
 
-[Install 'package.json' command](./assets/package-json-install.png)
-[Install 'inquirer' command](./assets/inquirer-install.png)
-['package.json' contents](./assets/packagejson-contents.png)
-['.gitignore' contents](./assets/gitignore-contents.png)
+[Install 'package.json' command](./assets/package-json-install.png)<br/>
+[Install 'inquirer' command](./assets/inquirer-install.png)<br/>
+['package.json' contents](./assets/packagejson-contents.png)<br/>
+['.gitignore' contents](./assets/gitignore-contents.png)<br/>
 
 ## Questions
 
