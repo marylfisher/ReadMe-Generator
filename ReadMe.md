@@ -46,6 +46,7 @@ Test application by following the installation instructions.
 Please guide any questions to:
 
 - GitHub Username: marylfisher
+- Email: email@email.com
 - [https://github.com/marylfisher/ReadMe-Generator](https://github.com/marylfisher/ReadMe-Generator)
 
     
