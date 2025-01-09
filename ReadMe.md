@@ -16,7 +16,7 @@ This project prompts the user in node to fill out information and generate a Rea
 
 ## License
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+Unlicensed
 
 ## Installation 
 
@@ -45,7 +45,7 @@ Test application by following the installation instructions.
 
 Please guide any questions to:
 
-- 
+- GitHub Username: marylfisher
 - [https://github.com/marylfisher/ReadMe-Generator](https://github.com/marylfisher/ReadMe-Generator)
 
     

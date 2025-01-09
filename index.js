@@ -49,7 +49,7 @@ ${test}
 
 Please guide any questions to:
 
-- ${username}
+- GitHub Username: ${username}
 - [${repository}](${repository})
 
     `;
